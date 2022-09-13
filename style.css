@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+font-family: 'Inter',
+sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+font-family: 'Lexend Deca',
+sans-serif;
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.container {
+    background-color: hsl(244, 38%, 16%);
+    width: 450px;
+    height: 370px;
+    border-radius: 0.625rem 0 0 0.625rem;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    margin-left: 4.5rem;
+    margin-right: 3.5rem;
+    margin-top: 3rem;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+
+b {
+    color: hsl(277, 64%, 61%);
+    margin-right: 0.4rem;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-left: 4.5rem;
+    margin-right: 5.5rem;
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+ul li {
+    color: hsla(0, 0%, 100%, 0.6);
+    list-style: none;
+    display: inline;
+}
+
+.F {
+    color: hsl(0, 0%, 100%);
+    margin-left: 2rem;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+
+.G {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 5rem;
+}
+
+.H {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 5.5rem;
+}
+
+.bottom {
+    margin-top: -0.9rem;
+}
+
+.J {
+    color: hsla(0, 0%, 100%, 0.6);
+    margin-left: 2rem;
+    text-transform: uppercase;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.K {
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    margin-left: 3.8rem;
+}
+
+.L {
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    margin-left: 3.7rem;
+}
+
+.image {
+    border-radius: 0 0.625rem 1.3rem 0;
+    overflow: hidden;
+}
+
+
+/* .image img {
+    object-fit: cover;
+    width: 450px;
+    height: 370px;
+} */
+
+.image img {
+    width: 450px;
+    height: 370px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 160px;
+    left: 672px;
+    width: 450px;
+    height: 370px;
+    background: hsla(277, 88%, 34%, 0.58);
+    border-radius: 0 0.625rem 0.625rem 0;
+
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width:640px) {
+    .top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5rem;
+    }
+
+    .container {
+        background-color: hsl(244, 38%, 16%);
+        width: 320px;
+        height: 485px;
+        border-radius: 0 0 0.625rem 0.625rem;
+        text-align: center;
+        position: relative;
+        float: left;
+        margin-top: 18rem;
+    }
+
+    h1 {
+        color: hsl(0, 0%, 100%);
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 2.5rem;
+        font-weight: 700;
+        font-family: 'Inter', sans-serif;
+        text-align: center;
+    }
+
+    p {
+        color: hsla(0, 0%, 100%, 0.75);
+        margin-left: 3.2rem;
+        margin-right: 3.2rem;
+        font-weight: 400;
+        font-family: 'Lexend Deca', sans-serif;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        font-size: 13px;
+        line-height: 18px;
+        text-align: center;
+    }
+
+    .F {
+        color: hsl(0, 0%, 100%);
+        margin-left: -2rem;
+        font-weight: 700;
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+    }
+
+    .G {
+        color: hsl(0, 0%, 100%);
+        font-weight: 700;
+        font-size: 18px;
+        font-family: 'Inter', sans-serif;
+        position: absolute;
+        margin-left: -2.2rem;
+        margin-top: 4rem;
+
+    }
+
+    .H {
+        color: hsl(0, 0%, 100%);
+        font-size: 18px;
+        font-weight: 700;
+        font-family: 'Inter', sans-serif;
+        position: absolute;
+        margin-left: -2.7rem;
+        margin-top: 7.5rem;
+    }
+
+    .J {
+        color: hsla(0, 0%, 100%, 0.6);
+        text-transform: uppercase;
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        position: absolute;
+        margin-left: -2.8rem;
+        margin-top: 0.3rem;
+    }
+
+    .K {
+        color: hsla(0, 0%, 100%, 0.6);
+        text-transform: uppercase;
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        position: absolute;
+        margin-left: -2.8rem;
+        margin-top: 4.2rem;
+    }
+
+    .L {
+        color: hsla(0, 0%, 100%, 0.6);
+        text-transform: uppercase;
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        position: absolute;
+        margin-left: -2.2rem;
+        margin-top: 7.6rem;
+    }
+
+    .image img {
+        width: 320px;
+        height: 285px;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .image {
+        border-radius: 0.625rem 1.3rem 0 0;
+        overflow: hidden;
+        position: relative;
+        margin-top: -48rem;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 320px;
+        height: 100%;
+        background: hsla(277, 88%, 34%, 0.58);
+    }
+
+
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-top: 32rem;
+
+    }
+}
